@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1400px;
+
+}
+
+main {
+  height: calc(100vh - 135px);
+  background-color: black;
+  overflow: auto;
+}
+
+img {
+  width: 10vw;
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+.menu-top {
+  height: 65px;
+  background-color: black;
+}
+
+
+.menu-bottom {
+  height: 70px;
+  background-color: grey;
+}
+
+
+.images {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  display: inline;
+}
+
+
+span {
+  position: absolute;
+  color: white;
+  bottom: 25px;
+  left: 0px;
+  background-color: rgba(128, 128, 128, .7);
+  padding: 2px 6px;
+}
