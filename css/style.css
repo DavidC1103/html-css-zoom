@@ -11,6 +11,11 @@
 
 }
 
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
 main {
   height: calc(100vh - 135px);
   background-color: black;
@@ -23,17 +28,30 @@ img {
   margin-bottom: 20px;
 }
 
+
+/*HEADER*/
+
 .menu-top {
   height: 65px;
   background-color: black;
+  color: white;
+}
+
+.icon-top {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.icon-top span {
+  background-color: rgba(128, 128, 128, .7);
+  margin: 7px;
+  padding: 2px 5px;
+  border-radius: 5px;
+
 }
 
 
-.menu-bottom {
-  height: 70px;
-  background-color: grey;
-}
-
+/*MAIN*/
 
 .images {
   position: relative;
@@ -43,12 +61,38 @@ img {
   display: inline;
 }
 
-
-span {
+.images span {
   position: absolute;
   color: white;
   bottom: 25px;
   left: 0px;
   background-color: rgba(128, 128, 128, .7);
   padding: 2px 6px;
+}
+
+
+
+/*FOOTER*/
+
+.menu-bottom {
+  height: 70px;
+  background-color: grey;
+  color: white;
+}
+
+.icon-bottom {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  height: 100%;
+  align-items: center;
+
+}
+
+.icon-bottom .f-icon {
+  font-size: 25px;
+}
+
+.i-angle {
+  display: inline-block;
 }
